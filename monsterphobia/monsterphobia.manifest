@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 3310565872
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fbadebffe33b2af14765a3851bbbd795
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6ee55d1372e9665c4ae73fbe3eacdfc7
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: fbadebffe33b2af14765a3851bbbd795
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Meshes/coil_head.mesh
+- Assets/Meshes/nutcracker.mesh
+- Assets/Meshes/snare_flea_clinging.mesh
+- Assets/Meshes/bracken.mesh
+- Assets/Meshes/baboon_hawk.mesh
+- Assets/Meshes/earth_leviathan.mesh
+- Assets/Meshes/eyeless_dog.mesh
+- Assets/Materials/yellow_cord.mat
+- Assets/Meshes/spore_lizard.mesh
+- Assets/Meshes/forest_giant.mesh
+- Assets/Meshes/snare_flea.mesh
+- Assets/Meshes/slime.mesh
+- Assets/Meshes/hoarding_bug.mesh
+- Assets/Meshes/masked.mesh
+- Assets/Materials/red_cord.mat
+- Assets/Meshes/ghost_girl.mesh
+- Assets/Meshes/thumper.mesh
+- Assets/Meshes/jester.mesh
+Dependencies: []
