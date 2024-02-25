@@ -165,7 +165,7 @@ namespace Monsterphobia
 
     public static class Assets
     {
-        public static string AssetBundleName = "monsterphobia\\monsterphobia";
+        public static string AssetBundleName = "monsterphobia\\monsterphobia-assets";
         public static AssetBundle Bundle = null;
 
         private static string GetAssemblyName() => Assembly.GetExecutingAssembly().FullName.Split(',')[0];
