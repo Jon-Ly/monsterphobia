@@ -165,15 +165,25 @@ namespace Monsterphobia
 
     public static class Assets
     {
-        public static string AssetBundleName = "monsterphobia\\monsterphobia-assets";
+        public static string AssetBundleName = "monsterphobia-assets\\monsterphobia";
         public static AssetBundle Bundle = null;
 
         private static string GetAssemblyName() => Assembly.GetExecutingAssembly().FullName.Split(',')[0];
+
         public static void PopulateAssets()
         {
             string sAssemblyLocation = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
-            AssetBundle assets = AssetBundle.LoadFromFile(Path.Combine(sAssemblyLocation, AssetBundleName));
+            AssetBundle assets = null;
+
+            if (File.Exists(Path.Combine(sAssemblyLocation, AssetBundleName)))
+            {
+                assets = AssetBundle.LoadFromFile(Path.Combine(sAssemblyLocation, AssetBundleName));
+            }
+            else if (File.Exists(Path.Combine(sAssemblyLocation, "monsterphobia")))
+            {
+                assets = AssetBundle.LoadFromFile(Path.Combine(sAssemblyLocation, "monsterphobia"));
+            }
 
             if (assets == null)
             {

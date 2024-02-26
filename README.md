@@ -20,7 +20,11 @@ Only you need to install this mod, everyone else on the server doesn't.
 - Launch the game at least once to generate a config file. Find it in Lethal Company/BepInEx/config
 - Close the game and edit the config file as you want. All monsters are text and all monster sounds are on by default.
 
+## Troubleshooting
+- Make sure the option "Enable monster to text technology" in the config file is set to true, not false
+
 ## Known issues
 
 - 3 monsters still have footstep sounds even if their sound is disabled: Forest Giant, Coil Head, Spore Lizard
 - Baboon Hawk can still make its random squawk noises
+- Forest Giant's text is taller than its original model
