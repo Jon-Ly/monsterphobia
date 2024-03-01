@@ -29,3 +29,4 @@ Only you need to install this mod, everyone else on the server doesn't.
 - Baboon Hawk can still make its random squawk noises
 - Forest Giant's text is taller than its original model
 - Monsters may not show up on the ship's map
+- Sandworm text doesn't come out of the ground
