@@ -156,7 +156,14 @@ namespace Monsterphobia
 
             for (int i = 0; i < enemyAI.meshRenderers.Length; i++)
             {
-                enemyAI.meshRenderers[i].enabled = false;
+                // Don't disable dots for the ship map
+                string materialName = enemyAI.meshRenderers[i].material.name;
+                bool isEnemyPartMesh = !materialName.ToLower().Contains("mapdot") && !materialName.ToLower().Contains("scannode");
+
+                if (isEnemyPartMesh)
+                {
+                    enemyAI.meshRenderers[i].enabled = false;
+                }
             }
 
             // Replace material
