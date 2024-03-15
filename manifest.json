@@ -3,7 +3,7 @@
   "description": "Turns monsters into text and disables their sound",
   "version_number": "1.0.2",
   "dependencies": [
-    "BepInEx-BepInEx-5.4.21"
+    "BepInEx-BepInExPack-5.4.2100"
   ],
   "website_url": "https://github.com/Jon-Ly/monsterphobia"
 }
