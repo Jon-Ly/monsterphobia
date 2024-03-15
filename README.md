@@ -12,7 +12,7 @@ Cause some people want to participate but the game's creatures are too much. May
 
 ## Installation (manual)
 
-Only you need to install this mod, everyone else on the server doesn't.
+This will only affect your game.
 
 - Install BepinEx: https://docs.bepinex.dev/articles/user_guide/installation/index.html
 - Download the mod

@@ -1,7 +1,7 @@
 {
   "name": "monsterphobia",
   "description": "Turns monsters into text and disables their sound",
-  "version_number": "1.0.0",
+  "version_number": "1.0.2",
   "dependencies": [
     "BepInEx-BepInEx-5.4.21"
   ],
